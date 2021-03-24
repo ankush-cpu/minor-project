@@ -1,0 +1,48 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-17836f175ec-70bcec8d3bbc2b7": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "medical_db",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "medical_db",
+				"url": "jdbc:mysql://localhost:3306/medical_db",
+				"home": "C:\\Program Files\\MySQL\\MySQL Router 8.0",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-178370417a7-152f3a34f6381c65": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "medical_db 2",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "medical_db",
+				"url": "jdbc:mysql://localhost:3306/medical_db",
+				"home": "C:\\Program Files\\MySQL\\MySQL Router 8.0",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
